@@ -5,7 +5,7 @@
 **/.terraform/*
 ```
 
-Все файлы в корне репозитория по двум маскам.
+Все файлы по двум маскам.
 ```
 *.tfstate
 *.tfstate.*
@@ -16,12 +16,12 @@
 crash.log
 ```
 
-Все файлы в корне репозитория, имя которых оканчивается на .tfvars
+Все файлы, имя которых оканчивается на .tfvars
 ```
 *.tfvars
 ```
 
-Файлы в корне репозитория override.tf, override.tf.json и файлы, имя которых оканчивается на _override.tf и _override.tf.json. 
+Файлы override.tf, override.tf.json и файлы, имя которых оканчивается на _override.tf и _override.tf.json. 
 ```
 override.tf
 override.tf.json
@@ -29,7 +29,7 @@ override.tf.json
 *_override.tf.json
 ```
 
-Файлы в корне репозитория .terraformrc & terraform.rc
+Файлы .terraformrc & terraform.rc
 ```
 .terraformrc
 terraform.rc
